@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ediText"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:editable="false"
+        android:gravity="right|center_vertical"
+        android:hint="請點擊按紐計算熱量"
+        android:paddingRight="60dp"
+        android:textSize="20dp" />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="滷肉飯"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="炒麵">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="貢丸湯"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="雞肉飯"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="炸醬面"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="陽春麵"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="牛肉麵"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="豬肝湯"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="燙青菜"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="雞腿飯"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="清空"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="總共"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="吃了"
+            android:layout_margin="2dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="沒吃"
+            android:layout_margin="2dp">
+
+        </Button>
+
+
+
+    </GridLayout>
+
+</LinearLayout>
